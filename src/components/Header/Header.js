@@ -31,7 +31,7 @@ export default function Header() {
         <p>
           Trabalho com desenvolvimento desde 2014. Gosto de descobrir e testar
           tecnologias novas, tenho mente aberta e sou curiosa para tudo que
-          envolver programação e tecnologia. Já atuei como full stack, já
+          envolve programação e tecnologia. Já atuei como full stack, já
           trabalhei com Wordpress, mas o que faz meu olho brilhar é a tríade:{" "}
           <strong>HTML, CSS e JS.</strong>
         </p>
