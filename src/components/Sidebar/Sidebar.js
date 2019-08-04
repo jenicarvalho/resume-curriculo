@@ -1,5 +1,5 @@
-import React from 'react'
-import { MdSmartphone, MdEmail, MdMyLocation, MdPublic } from 'react-icons/md'
+import React from "react";
+import { MdSmartphone, MdEmail, MdMyLocation, MdPublic } from "react-icons/md";
 
 import {
   ListaContatos,
@@ -7,7 +7,7 @@ import {
   ItemContact,
   Icon,
   ListaFormacao
-} from './style'
+} from "./style";
 
 export default function Contact() {
   return (
@@ -46,7 +46,7 @@ export default function Contact() {
           <li>
             <ItemContact>
               <h4>BLOG</h4>
-              <a href='http://jenicarvalho.com.br'>jenicarvalho.com.br</a>
+              <a href="http://jenicarvalho.com.br">jenicarvalho.com.br</a>
             </ItemContact>
             <Icon>
               <MdPublic />
@@ -55,7 +55,7 @@ export default function Contact() {
           <li>
             <ItemContact>
               <h4>GITHUB</h4>
-              <a href='https://github.com/jenicarvalho'>
+              <a href="https://github.com/jenicarvalho">
                 github.com/jenicarvalho
               </a>
             </ItemContact>
@@ -73,8 +73,12 @@ export default function Contact() {
             <h4>Bacharel Sistemas de Informação</h4>
             <p>Metrocamp Turma 2014 - 2018</p>
           </li>
+          <li>
+            <h4>Técnico em Informática para Internet</h4>
+            <p>ETEC Hortolândia 2012 - 2013</p>
+          </li>
         </ListaFormacao>
       </Sidebar>
     </aside>
-  )
+  );
 }
