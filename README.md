@@ -1,3 +1,3 @@
-## Resumé
+## Résumé
 
-Jeniffer Carvalho Resumé
+Jeniffer Carvalho Résumé
