@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Tinos:400,700&display=swap');
@@ -30,6 +30,10 @@ export default createGlobalStyle`
       'education-sidebar experience experience'
   }
 
+  aside {
+    background-color: #2b2b30;
+  }
+
   h3 {
     position: relative;
     color: #d7b22a;
@@ -46,4 +50,4 @@ export default createGlobalStyle`
       bottom: -4px;
       right: 0px;
     }
-`
+`;
