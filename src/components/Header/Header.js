@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import {
   ProfileImage,
@@ -6,17 +6,19 @@ import {
   Occupation,
   Title,
   ProfessionalProfile
-} from './style'
-import perfil from '../../images/perfil-jeniffer.jpg'
+} from "./style";
+import perfil from "../../images/perfil-jeniffer.jpg";
 
 export default function Header() {
   return (
     <>
       <ProfileImage>
-        <img src={perfil} alt='Perfil Jeniffer Carvalho' />
+        <img src={perfil} alt="Perfil Jeniffer Carvalho" />
       </ProfileImage>
       <Biography>
-        <h1>Jeniffer F. Carvalho</h1>
+        <h1>
+          Jeniffer F. <br /> Carvalho
+        </h1>
         <Occupation>Front End Developer</Occupation>
         <p>27 anos, casada e mãe de 2 gatos.</p>
       </Biography>
@@ -27,13 +29,13 @@ export default function Header() {
 
       <ProfessionalProfile>
         <p>
-          Trabalho com desenvolvimento Front-end desde 2014. Gosto de descobrir
-          e testar tecnologias novas, tenho mente aberta e sou curiosa para tudo
-          que envolver programação. Já atuei como backend, já trabalhei com
-          Wordpress, mas o que faz meu olho brilhar é a tríade:{' '}
+          Trabalho com desenvolvimento desde 2014. Gosto de descobrir e testar
+          tecnologias novas, tenho mente aberta e sou curiosa para tudo que
+          envolver programação e tecnologia. Já atuei como full stack, já
+          trabalhei com Wordpress, mas o que faz meu olho brilhar é a tríade:{" "}
           <strong>HTML, CSS e JS.</strong>
         </p>
       </ProfessionalProfile>
     </>
-  )
+  );
 }
