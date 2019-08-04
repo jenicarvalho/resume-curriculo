@@ -27,5 +27,23 @@ export default createGlobalStyle`
       'sidebar content content'
       'perfil-sidebar perfil perfil'
       'contact-sidebar experience experience'
+      'education-sidebar experience experience'
   }
+
+  h3 {
+    position: relative;
+    color: #d7b22a;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+
+    &::after {
+      position: absolute;
+      content: '';
+      padding: 3px 16px;
+      background: #d7b22a;
+      bottom: -4px;
+      right: 0px;
+    }
 `
