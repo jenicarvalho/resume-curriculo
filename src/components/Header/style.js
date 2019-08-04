@@ -1,6 +1,4 @@
-import styled from 'styled-components'
-
-export const HeaderContainer = styled.header``
+import styled from "styled-components";
 
 export const ProfileImage = styled.div`
   grid-area: sidebar;
@@ -8,7 +6,7 @@ export const ProfileImage = styled.div`
   img {
     max-width: 100%;
   }
-`
+`;
 
 export const Biography = styled.div`
   grid-area: content;
@@ -20,7 +18,7 @@ export const Biography = styled.div`
   h1 {
     font-size: 60px;
     color: #535458;
-    font-family: 'Tinos', serif;
+    font-family: "Tinos", serif;
     text-transform: uppercase;
   }
 
@@ -28,7 +26,7 @@ export const Biography = styled.div`
     font-style: italic;
     margin-top: 10px;
   }
-`
+`;
 
 export const Occupation = styled.h2`
   color: #d7b22a;
@@ -38,7 +36,7 @@ export const Occupation = styled.h2`
   font-weight: 100;
   letter-spacing: 3px;
   padding: 10px 0 10px 15px;
-`
+`;
 
 export const Title = styled.h2`
   grid-area: perfil-sidebar;
@@ -55,14 +53,14 @@ export const Title = styled.h2`
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     padding: 8px 20px;
     position: absolute;
     background: #fff;
     bottom: 53.5%;
     left: 35%;
   }
-`
+`;
 
 export const ProfessionalProfile = styled.div`
   grid-area: perfil;
@@ -75,4 +73,4 @@ export const ProfessionalProfile = styled.div`
     color: #fff;
     line-height: 25px;
   }
-`
+`;
