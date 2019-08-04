@@ -1,7 +1,8 @@
-import React from 'react'
-import Header from './components/Header/Header'
-import Sidebar from './components/Sidebar/Sidebar'
-import GlobalStyle from './styles/globalStyle'
+import React from "react";
+import Header from "./components/Header/Header";
+import Sidebar from "./components/Sidebar/Sidebar";
+import Experience from "./components/Experience/Experience";
+import GlobalStyle from "./styles/globalStyle";
 
 function App() {
   return (
@@ -9,8 +10,9 @@ function App() {
       <GlobalStyle />
       <Header />
       <Sidebar />
+      <Experience />
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
