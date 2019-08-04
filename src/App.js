@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header/Header'
-import Contact from './components/Contact/Contact'
+import Sidebar from './components/Sidebar/Sidebar'
 import GlobalStyle from './styles/globalStyle'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <main>
       <GlobalStyle />
       <Header />
-      <Contact />
+      <Sidebar />
     </main>
   )
 }
