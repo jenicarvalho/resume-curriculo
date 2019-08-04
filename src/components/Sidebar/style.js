@@ -1,11 +1,8 @@
-import styled from 'styled-components'
-
-export const ListaFormacao = styled.div``
+import styled from "styled-components";
 
 export const Sidebar = styled.div`
   text-align: right;
-  background-color: #2b2b30;
-  padding: 40px;
+  padding: 50px 40px 20px;
   color: #fff;
 
   li {
@@ -21,12 +18,12 @@ export const Sidebar = styled.div`
     display: inline-block;
   }
   }
-`
+`;
 
 export const ListaContatos = styled.ul`
   list-style: none;
   line-height: 30px;
-`
+`;
 export const ItemContact = styled.div`
   padding-right: 15px;
 
@@ -34,7 +31,7 @@ export const ItemContact = styled.div`
     height: 20px;
     font-size: 14px;
   }
-`
+`;
 
 export const Icon = styled.span`
   border: 1px solid;
@@ -48,4 +45,21 @@ export const Icon = styled.span`
     position: relative;
     top: 3px;
   }
-`
+`;
+
+export const ListaFormacao = styled.ul`
+  li {
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 15px 0;
+
+    &:first-child {
+      padding-bottom: 15px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    }
+  }
+
+  h4 {
+    margin-bottom: 5px;
+  }
+`;
