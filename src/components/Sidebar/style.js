@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const SidebarContatos = styled.aside`
+export const ListaFormacao = styled.div``
+
+export const Sidebar = styled.div`
   text-align: right;
   background-color: #2b2b30;
   padding: 40px;
@@ -18,23 +20,6 @@ export const SidebarContatos = styled.aside`
     color: #fff;
     display: inline-block;
   }
-
-  h3 {
-    position: relative;
-    color: #d7b22a;
-    text-transform: uppercase;
-    border-bottom: 2px solid;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-
-    &::after {
-      position: absolute;
-      content: '';
-      padding: 3px 16px;
-      background: #d7b22a;
-      bottom: -4px;
-      right: 0px;
-    }
   }
 `
 
