@@ -28,7 +28,7 @@ export default function Contact() {
           <li>
             <ItemContact>
               <h4>EMAIL</h4>
-              <p>jenicarvalho@live.com</p>
+              <p>jenicarvalho(at)live.com</p>
             </ItemContact>
             <Icon>
               <MdEmail />
@@ -46,7 +46,9 @@ export default function Contact() {
           <li>
             <ItemContact>
               <h4>BLOG</h4>
-              <a href="http://jenicarvalho.com.br">jenicarvalho.com.br</a>
+              <a href="http://jenicarvalho.com.br" target="_blank">
+                jenicarvalho.com.br
+              </a>
             </ItemContact>
             <Icon>
               <MdPublic />
@@ -55,7 +57,7 @@ export default function Contact() {
           <li>
             <ItemContact>
               <h4>GITHUB</h4>
-              <a href="https://github.com/jenicarvalho">
+              <a href="https://github.com/jenicarvalho" target="_blank">
                 github.com/jenicarvalho
               </a>
             </ItemContact>
