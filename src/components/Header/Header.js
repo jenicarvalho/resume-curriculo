@@ -33,7 +33,8 @@ export default function Header() {
           tecnologias novas, tenho mente aberta e sou curiosa para tudo que
           envolve programação e tecnologia. Já atuei como full stack, já
           trabalhei com Wordpress, mas o que faz meu olho brilhar é a tríade:{" "}
-          <strong>HTML, CSS e JS.</strong>
+          <strong>HTML, CSS e JS.</strong> Atualmente estou apaixonada por
+          React.
         </p>
       </ProfessionalProfile>
     </>
