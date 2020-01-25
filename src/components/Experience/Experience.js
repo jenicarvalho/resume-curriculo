@@ -9,14 +9,43 @@ export default function Experience() {
 
       <ExperienceItem>
         <div>
+          <h4>Front End React</h4>
+          <date>Novembro 2019 - Atualmente</date>
+
+          <strong>SeoZé</strong>
+          <span>Valinhos - São Paulo</span>
+        </div>
+        <p>
+          Criação de sistemas com ReactJS, desenvolvimento de uma biblioteca
+          para uso interno. Desenvolvimento guiado por testes unitários usando
+          para isso Jest e Enzyme.
+        </p>
+      </ExperienceItem>
+      <ExperienceItem>
+        <div>
+          <h4>Front End React</h4>
+          <date>Agosto 2019 - Novembro 2019</date>
+
+          <strong>SeoZé</strong>
+          <span>Vinhedo - São Paulo</span>
+        </div>
+        <p>
+          Desenvolvimento com ReactJS, integração com APIS, construção dos
+          layouts. Usei Axios para integrar com o backend e Styled Components
+          para estilizar as páginas.
+        </p>
+      </ExperienceItem>
+
+      <ExperienceItem>
+        <div>
           <h4>Front End</h4>
-          <date>Dezembro 2018 - Atualmente</date>
+          <date>Dezembro 2018 - Agosto 2019</date>
 
           <strong>Tecnologia 2U</strong>
           <span>Paulínia - São Paulo</span>
         </div>
         <p>
-          Atuo com o desenvolvimento Front End dos sistemas e sites da empresa.
+          Atuei com o desenvolvimento Front End dos sistemas e sites da empresa.
           Uso Bootstrap, jQuery, Flex e Grid para construção dos layouts. Faço
           também melhorias de UI e UX.
         </p>
