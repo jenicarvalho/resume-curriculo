@@ -46,7 +46,11 @@ export default function Contact() {
           <li>
             <ItemContact>
               <h4>BLOG</h4>
-              <a href="http://jenicarvalho.com.br" target="_blank">
+              <a
+                href="http://jenicarvalho.com.br"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 jenicarvalho.com.br
               </a>
             </ItemContact>
@@ -57,7 +61,11 @@ export default function Contact() {
           <li>
             <ItemContact>
               <h4>GITHUB</h4>
-              <a href="https://github.com/jenicarvalho" target="_blank">
+              <a
+                href="https://github.com/jenicarvalho"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 github.com/jenicarvalho
               </a>
             </ItemContact>
