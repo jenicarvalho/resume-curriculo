@@ -12,7 +12,7 @@ export default function Experience() {
           <h4>Front End React</h4>
           <date>Novembro 2019 - Atualmente</date>
 
-          <strong>SeoZé</strong>
+          <strong>SysMap | Kroton</strong>
           <span>Valinhos - São Paulo</span>
         </div>
         <p>
