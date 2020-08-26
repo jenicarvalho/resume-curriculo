@@ -10,7 +10,32 @@ export default function Experience() {
       <ExperienceItem>
         <div>
           <h4>Front End React</h4>
-          <date>Novembro 2019 - Atualmente</date>
+          <date>Abril 2020 - Atualmente</date>
+
+          <strong>Matera</strong>
+          <span>Campinas - São Paulo</span>
+        </div>
+        <p>
+          Criação de sistemas bancários e financeiros com ReactJS, Typescript, Redux e Sagas.
+        </p>
+      </ExperienceItem>
+
+      <ExperienceItem>
+        <div>
+          <h4>Instrutora React</h4>
+          <date>Março - Abril</date>
+
+          <strong>Woman Can Code | Share RH</strong>
+          <span>Campinas - São Paulo</span>
+        </div>
+        <p>
+          Dei aula de React e Javascript para uma turma de aproximadamente 20 mulheres. Foi um curso intensivo de 30 dias, de Segunda à Sábado. Pude botar em prática a minha didática e repassar o conhecimento obtido ao longo dos últimos 6 anos de carreira.
+        </p>
+      </ExperienceItem>
+      <ExperienceItem>
+        <div>
+          <h4>Front End React</h4>
+          <date>Setembro 2019 - Abril 2020</date>
 
           <strong>SysMap | Kroton</strong>
           <span>Valinhos - São Paulo</span>
@@ -19,20 +44,6 @@ export default function Experience() {
           Criação de sistemas com ReactJS, desenvolvimento de uma biblioteca
           para uso interno. Desenvolvimento guiado por testes unitários usando
           para isso Jest e Enzyme.
-        </p>
-      </ExperienceItem>
-      <ExperienceItem>
-        <div>
-          <h4>Front End React</h4>
-          <date>Agosto 2019 - Novembro 2019</date>
-
-          <strong>SeoZé</strong>
-          <span>Vinhedo - São Paulo</span>
-        </div>
-        <p>
-          Desenvolvimento com ReactJS, integração com APIS, construção dos
-          layouts. Usei Axios para integrar com o backend e Styled Components
-          para estilizar as páginas.
         </p>
       </ExperienceItem>
 
