@@ -37,25 +37,10 @@ export default function Contact() {
           <li>
             <ItemContact>
               <h4>ENDEREÇO</h4>
-              <p>Vila Inema - Hortolândia - São Paulo</p>
+              <p>Hortolândia - São Paulo</p>
             </ItemContact>
             <Icon>
               <MdMyLocation />
-            </Icon>
-          </li>
-          <li>
-            <ItemContact>
-              <h4>BLOG</h4>
-              <a
-                href="http://jenicarvalho.com.br"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                jenicarvalho.com.br
-              </a>
-            </ItemContact>
-            <Icon>
-              <MdPublic />
             </Icon>
           </li>
           <li>
@@ -79,6 +64,10 @@ export default function Contact() {
       <Sidebar>
         <h3>Educação</h3>
         <ListaFormacao>
+          <li>
+            <h4>Pós Graduação em Arquitetura de Software</h4>
+            <p>PUC Turma 2021 - 2022</p>
+          </li>
           <li>
             <h4>Bacharel Sistemas de Informação</h4>
             <p>Metrocamp Turma 2014 - 2018</p>

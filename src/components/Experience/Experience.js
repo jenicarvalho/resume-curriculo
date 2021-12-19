@@ -9,8 +9,21 @@ export default function Experience() {
 
       <ExperienceItem>
         <div>
+          <h4>Arquiteta <br />Front End React</h4>
+          <date>Devereiro 2021 - Atualmente</date>
+
+          <strong>BairesDev</strong>
+          <span>Estados Unidos - Remoto</span>
+        </div>
+        <p>
+        Coordeno o desenvolvimento front end dentro dos times.
+        Atuo na tomada de decisão de tecnologias e ferramentas focando em performance e entregas de valor.
+        </p>
+      </ExperienceItem>
+      <ExperienceItem>
+        <div>
           <h4>Front End React</h4>
-          <date>Abril 2020 - Atualmente</date>
+          <date>Março 2020 - Fevereiro 2021</date>
 
           <strong>Matera</strong>
           <span>Campinas - São Paulo</span>
@@ -35,7 +48,7 @@ export default function Experience() {
       <ExperienceItem>
         <div>
           <h4>Front End React</h4>
-          <date>Setembro 2019 - Abril 2020</date>
+          <date>Setembro 2019 - Março 2020</date>
 
           <strong>SysMap | Kroton</strong>
           <span>Valinhos - São Paulo</span>

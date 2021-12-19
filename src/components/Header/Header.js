@@ -20,7 +20,7 @@ export default function Header() {
           Jeniffer F. <br /> Carvalho
         </h1>
         <Occupation>Front End Developer</Occupation>
-        <p>28 anos, casada e mãe de 2 gatos.</p>
+        <p>29 anos e mãe de 2 gatos.</p>
       </Biography>
 
       <Title>
